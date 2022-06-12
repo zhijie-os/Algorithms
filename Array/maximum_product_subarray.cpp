@@ -4,8 +4,6 @@
 
 using namespace std;
 
-
-
 // Dynamic Programming: DP_MAX(i) = Max(DP_MAX[i-1]*A[i], DP_MIN[i-1]*A[i],A[i])
 // Dynamic Programming: DP_MIN(i) = Min(DP_MAX[i-1]*A[i], DP_MIN[i-1]*A[i],A[i])
 
